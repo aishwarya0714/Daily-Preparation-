@@ -7,6 +7,7 @@
 ### 3. Delete/ Remove O(1) = constant time
 
 # Exapmle:- GFG = find duplicates from array
+//
 package ArrayList;
 
 import java.util.*;
@@ -26,7 +27,7 @@ public class FindDuplicate {
             
             
            }
-        //   return 0;
+      
         }
         ArrayList<Integer> duplicats= new ArrayList<Integer>(list);
         Collections.sort(duplicats);
