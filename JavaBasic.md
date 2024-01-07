@@ -30,3 +30,33 @@
 
 ![WhatsApp Image 2024-01-06 at 9 18 53 PM](https://github.com/aishwarya0714/Daily-Preparation-/assets/136805991/00556cf8-91be-4c69-8ba3-4bdd6a04d759)
 
+##### code:
+
+```
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+
+class Dog implements Serializable{
+    int i = 10;
+    int j= 20;
+}
+public class SerializationDemo {
+    public static void main(String[] args)throws Exception{
+    Dog d1 = new Dog();
+// Serialization
+    FileOutputStream fs = new FileOutputStream("demo.txt");
+    ObjectOutputStream oos = new ObjectOutputStream(fs);
+    oos.writeObject(d1);
+
+    // DeSerializationDemo
+    FileInputStream fi = new FileInputStream("demo.txt");
+    ObjectInputStream ois = new ObjectInputStream(fi);
+    Dog d2 = (Dog)ois.readObject();
+    System.out.println(d2.i+d2.j);
+    }
+}
+
+```
