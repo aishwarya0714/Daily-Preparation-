@@ -60,3 +60,7 @@ public class SerializationDemo {
 }
 
 ```
+
+- Serializable Interface comes under java.io
+- it dont contains any method (required ability can be provided by JVM).
+- "if you want to serialize an object it should be serialize object and class should implement serializable object".
