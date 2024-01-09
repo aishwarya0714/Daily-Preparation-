@@ -64,3 +64,10 @@ public class SerializationDemo {
 - Serializable Interface comes under java.io
 - it dont contains any method (required ability can be provided by JVM).
 - "if you want to serialize an object it should be serialize object and class should implement serializable object".
+
+
+### String Literal
+- object of string will be stored in string constant pool.
+
+### new Keyword
+- it will create object of string outside pool in heap memory.
