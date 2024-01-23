@@ -5,6 +5,9 @@
    - object of string will be stored in pool.
 2. Immutability
    - If you want to make changes in in existing string.. it will not do that.. instead it will create a new object of that string
+   - Why String objects are immutable in Java?💡
+     
+As Java uses the concept of String literal. Suppose there are 5 reference variables, all refer to one object "Sachin". If one reference variable changes the value of the object, it will be affected by all the reference variables. That is why String objects are immutable in Java.
   
 ### to deal with this java has stringbuilder class
 - StringBhilder in mutable.
