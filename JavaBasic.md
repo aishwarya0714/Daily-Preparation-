@@ -75,6 +75,8 @@ public class SerializationDemo {
 ### new Keyword
 - it will create object of string outside pool in heap memory.
 
+<img width="244" alt="image" src="https://github.com/aishwarya0714/Daily-Preparation-/assets/136805991/2d5f1597-1e00-4d41-a6fa-f51d8cb5674f">
+
 
 # Functions/Methods 🚀
 - Static int fun() - return - end of function
