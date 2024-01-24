@@ -77,7 +77,23 @@ public class SerializationDemo {
 
 <img width="244" alt="image" src="https://github.com/aishwarya0714/Daily-Preparation-/assets/136805991/2d5f1597-1e00-4d41-a6fa-f51d8cb5674f">
 
+## String Methods
 
+### 1. charAt() - 
+   ```
+class HelloWorld {
+    public static void main(String[] args) {
+        String s = "Sudiksha sss";
+        int count1 = 0;
+        for(int i=0;i<=s.length()-1;i++){
+            if(s.charAt(i)=='s'){
+                count1++;
+            }
+        }
+        System.out.println(count1);     
+    }
+} 
+```
 # Functions/Methods 🚀
 - Static int fun() - return - end of function
 - Static void fun() - sout 
