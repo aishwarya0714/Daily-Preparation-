@@ -1,4 +1,4 @@
-# String 
+# String 🚀
 
 ### Concepts
 1. String Pool
@@ -74,3 +74,8 @@ public class SerializationDemo {
 
 ### new Keyword
 - it will create object of string outside pool in heap memory.
+
+
+# Functions/Methods 🚀
+- Static int fun() - return - end of function
+- Static void fun() - sout 
