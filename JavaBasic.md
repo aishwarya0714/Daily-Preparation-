@@ -94,6 +94,16 @@ class HelloWorld {
     }
 } 
 ```
+
+### 2. compareTo() -
+   The compareTo() method compares two strings lexicographically.
+
+### 3. concat() - 
+   combine string at the end of string 
+
+### 4. contains() - 
+   check if specified char is present in string and return True else return false.
+
 # Functions/Methods 🚀
 - Static int fun() - return - end of function
 - Static void fun() - sout 
