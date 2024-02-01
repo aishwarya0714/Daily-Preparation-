@@ -108,6 +108,11 @@ class HelloWorld {
 ### 4. contains() - 
    check if specified char is present in string and return True else return false.
 
+   ⌛Limitations -
+      1. he contains() method should not be used to search for a character in a string. Doing so results in an error.
+      2. The contains() method only checks for the presence or absence of a string in another string. 
+      3. It never reveals at which index the searched index is found. Because of these limitations, it is better to use the indexOf() method instead of the contains() method.
+
  ##### ⚠️ Exception - NullPointerException
 
 ### 5. 
