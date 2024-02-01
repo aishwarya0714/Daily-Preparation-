@@ -94,15 +94,23 @@ class HelloWorld {
     }
 } 
 ```
+   ##### ⚠️ Exception - StringIndexOutOfBoundsException
 
 ### 2. compareTo() -
    The compareTo() method compares two strings lexicographically.
 
+   ##### ⚠️ Exception - ClassCastException: If this object cannot get compared with the specified object. 
+   ##### NullPointerException: If the specified object is null.
+
 ### 3. concat() - 
    combine string at the end of string 
-
+   
 ### 4. contains() - 
    check if specified char is present in string and return True else return false.
+
+ ##### ⚠️ Exception - NullPointerException
+
+### 5. 
 
 # Functions/Methods 🚀
 - Static int fun() - return - end of function
