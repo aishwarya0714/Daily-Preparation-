@@ -116,7 +116,27 @@ class HelloWorld {
  ##### ⚠️ Exception - NullPointerException
 
 ### 5. 
+      ```
+      public class StringMethods {
+    public static void main(String[] args) {
+        String s = "Hello";
+        String s1 = "Hello";
+        String s3= "aes";
+        // 2. compareTo()
+        System.out.println(s.compareTo(s1));
+        System.out.println(s.compareTo(s3));
+        // 3. concat() 
 
+        System.out.println(s.concat(s3));
+
+        // 4. contains()
+        System.out.println(s.contains("e"));
+
+        // 5. endsWith()
+        System.out.println(s.endsWith("a"));
+    }
+}
+```
 # Functions/Methods 🚀
 - Static int fun() - return - end of function
 - Static void fun() - sout 
