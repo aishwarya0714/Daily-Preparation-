@@ -123,7 +123,8 @@ class HelloWorld {
 
 ### 7. equalsIgnoreCase() - 
    The Java String class equalsIgnoreCase() method compares the two given strings on the basis of the content of the string irrespective of the case (lower and upper) of the string
-      ```
+   
+```
       public class StringMethods {
     public static void main(String[] args) {
         String s = "Hello";
