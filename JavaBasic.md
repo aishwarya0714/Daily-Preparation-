@@ -126,11 +126,15 @@ class HelloWorld {
 
 ### 8. format() - 
    The java string format() method returns the formatted string by given locale, format and arguments.
+
 ```
 String s5 = String.format("value is %f", 14.5);
 System.out.println(s5);
 ```
-   
+ ##### ⚠️ Exception - NullPointerException , IllegalFormatException 
+
+### 9. getByte() - 
+   The Java String class getBytes() method does the encoding of string into the sequence of bytes and keeps it in an array of bytes.
 ```
       public class StringMethods {
     public static void main(String[] args) {
