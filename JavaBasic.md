@@ -123,6 +123,13 @@ class HelloWorld {
 
 ### 7. equalsIgnoreCase() - 
    The Java String class equalsIgnoreCase() method compares the two given strings on the basis of the content of the string irrespective of the case (lower and upper) of the string
+
+### 8. format() - 
+   The java string format() method returns the formatted string by given locale, format and arguments.
+```
+String s5 = String.format("value is %f", 14.5);
+System.out.println(s5);
+```
    
 ```
       public class StringMethods {
