@@ -115,7 +115,14 @@ class HelloWorld {
 
  ##### ⚠️ Exception - NullPointerException
 
-### 5. 
+### 5. equals() - 
+      comapres the content of string.
+
+### 6. endsWith() - 
+      checks if string ends with given string.
+
+### 7. equalsIgnoreCase() - 
+   The Java String class equalsIgnoreCase() method compares the two given strings on the basis of the content of the string irrespective of the case (lower and upper) of the string
       ```
       public class StringMethods {
     public static void main(String[] args) {
