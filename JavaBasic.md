@@ -137,7 +137,25 @@ System.out.println(s5);
    The Java String class getBytes() method does the encoding of string into the sequence of bytes and keeps it in an array of bytes.
 
 ### 10. getChar() - 
-      copies the specified substring into the array
+      copies the specified substring into the array.
+### 11. indexOf()-
+      method returns the position of the first occurrence of the specified character or string in a specified string.
+   ###### 1. indexOf()-
+   ```
+class HelloWorld {
+    public static void main(String[] args) {
+        String a = "Aishwarya kawale";
+        // index of char
+        System.out.println(a.indexOf('s'));
+        // index of substring
+        System.out.println(a.indexOf("aw"));
+        // index of substring after specified position
+        System.out.println(a.indexOf("wa",9));
+    }
+}
+
+
+   ```
 ```
       public class StringMethods {
     public static void main(String[] args) {
