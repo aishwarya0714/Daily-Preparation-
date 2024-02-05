@@ -135,6 +135,9 @@ System.out.println(s5);
 
 ### 9. getByte() - 
    The Java String class getBytes() method does the encoding of string into the sequence of bytes and keeps it in an array of bytes.
+
+### 10. getChar() - 
+      copies the specified substring into the array
 ```
       public class StringMethods {
     public static void main(String[] args) {
