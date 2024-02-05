@@ -140,7 +140,7 @@ System.out.println(s5);
       copies the specified substring into the array.
 ### 11. indexOf()-
       method returns the position of the first occurrence of the specified character or string in a specified string.
-   ###### 1. indexOf()-
+   
    ```
 class HelloWorld {
     public static void main(String[] args) {
@@ -155,7 +155,27 @@ class HelloWorld {
 }
 
 
+```
+### 12. intern() - 
+   It can be used to return string from memory if it is created by a new keyword. It creates an exact copy of the heap string object in the String Constant Pool.
+
    ```
+class HelloWorld {
+    public static void main(String[] args) {
+        String a = new String("Aishwarya kawale").intern();
+        String b = new String("Aishwarya kawale").intern();
+        String c = "Aishwarya";
+        String d = "Aishwarya";
+        System.out.println(a==b);
+        System.out.println(c==d);
+        
+    }
+
+```
+### 13. isEmpty()-
+checks if the input string is empty or not
+
+### 
 ```
       public class StringMethods {
     public static void main(String[] args) {
