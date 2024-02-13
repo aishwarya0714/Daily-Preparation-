@@ -175,7 +175,68 @@ class HelloWorld {
 ### 13. isEmpty()-
 checks if the input string is empty or not
 
-### 
+### 14. join() - 
+   returns string join with given delimiter.
+
+   ```
+class HelloWorld {
+    public static void main(String[] args) {
+        String jn = String .join(";>","Aishwarya","Happier");
+        System.out.println(jn);
+    }
+}
+
+```
+### 15. lastIndexOf() -
+   returns last index
+
+### 16. length() - 
+   returns length
+
+### 17. replace() - 
+   replace the char or string
+
+### 18. replaceAll() - 
+   replace all accourences
+### 19. split() - 
+   splits the string with regular expression and return char array
+
+   ``` 
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        String jn = "itit otot";
+        String[] ar = jn.split("\\s");
+        System.out.println(Arrays.toString(ar));
+    }
+}
+
+```
+
+### 20. startsWith() - 
+
+   check if string starts with given prefix
+
+### 21. substring() - 
+   returns part of string
+
+### 22. toCharArray() - 
+   converts string into arrays.
+
+### 23. toLowerCase() - 
+   converts string into lower case
+   
+### 24. toUpperCase() - 
+   converts string into upper case
+
+### 25. trim() 
+   remover start and ends whitespace.
+
+### 26. valueOf() - 
+convert different types of values into string.
+
+
+
 ```
       public class StringMethods {
     public static void main(String[] args) {
